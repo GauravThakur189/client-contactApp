@@ -3,7 +3,10 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-  hello
+    <div>
+      <input type='text' placeholder='write your name' id='name'/>
+      <button>enter</button>
+    </div>
     </div>
   )
 }
