@@ -9,3 +9,6 @@
  .button{
     @apply bg-orange-600 py-2 text-white rounded-md hover:opacity-75
  }
+ .input{
+   @apply border border-gray-400 p-3 outline-none rounded-md text-sm
+ }

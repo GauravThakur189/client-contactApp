@@ -1,13 +1,14 @@
 import React from 'react'
+import {Routes,Route} from "react-router-dom";
+import Contacts from './components/Contacts';
+import AddContacts from './components/AddContacts';
 
 const App = () => {
   return (
-    <div>
-    <div>
-      <input type='text' placeholder='write your name' id='name'/>
-      <button>enter</button>
-    </div>
-    </div>
+   <Routes>
+    <Route path='/' element={<Contacts/>}/>
+    <Route path='/add' element={<AddContacts/>} />
+   </Routes>
   )
 }
 
